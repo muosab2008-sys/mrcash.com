@@ -17,7 +17,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <AuthProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/mrcash.com/">
           <Routes>
             <Route path="/" element={<Index />} />
             <Route
